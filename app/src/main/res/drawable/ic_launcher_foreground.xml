@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Code terminal window container -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M27,30 C27,27 29,25 32,25 L76,25 C79,25 81,27 81,30 L81,78 C81,81 79,83 76,83 L32,83 C29,83 27,81 27,78 Z" />
+    
+    <!-- Terminal header bar -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M27,30 C27,27 29,25 32,25 L76,25 C79,25 81,27 81,30 L81,36 L27,36 Z" />
+        
+    <!-- Header indicator dots -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M32,30.5 A1.5,1.5 0 1,1 35,30.5 A1.5,1.5 0 1,1 32,30.5" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M37,30.5 A1.5,1.5 0 1,1 40,30.5 A1.5,1.5 0 1,1 37,30.5" />
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M42,30.5 A1.5,1.5 0 1,1 45,30.5 A1.5,1.5 0 1,1 42,30.5" />
+
+    <!-- Left angle bracket < -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M40,46 L34,53 L40,60" />
+
+    <!-- Question mark ? for PHP tag <? -->
+    <path
+        android:strokeColor="#A855F7"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M46,47 C46,44 50,44 50,47 C50,49 48,50 48,53" />
+    <path
+        android:fillColor="#A855F7"
+        android:pathData="M47,56.5 A1,1 0 1,1 49,56.5 A1,1 0 1,1 47,56.5" />
+
+    <!-- Right angle bracket > -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M56,46 L62,53 L56,60" />
+
+    <!-- Subtle server/database badge bottom right of terminal -->
+    <!-- Database cylinder top -->
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M66,66 C66,64.5 70,64.5 70,64.5 C70,64.5 74,64.5 74,66 C74,67.5 70,67.5 70,67.5 C70,67.5 66,67.5 66,66 Z" />
+    <path
+        android:strokeColor="#818CF8"
+        android:strokeWidth="1.2"
+        android:pathData="M66,66 L66,74 C66,75.5 74,75.5 74,74 L74,66" />
+    <path
+        android:strokeColor="#818CF8"
+        android:strokeWidth="1"
+        android:pathData="M66,70 C66,71.5 74,71.5 74,70" />
+
+    <!-- PHP text badge inside terminal -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.5"
+        android:pathData="M35,69 L41,69 M38,69 L38,76 M43,69 L43,76 M47,69 L47,76 M43,72.5 L47,72.5 M49,69 L49,76 M53,69 L53,76" />
+</vector>

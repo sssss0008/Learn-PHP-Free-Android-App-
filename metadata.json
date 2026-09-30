@@ -1,0 +1,6 @@
+{
+  "name": "Learn PHP",
+  "description": "Learn PHP by Awiskar Acharya - The premier interactive PHP learning platform, IDE playground, MySQL lab, and full-stack academy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
